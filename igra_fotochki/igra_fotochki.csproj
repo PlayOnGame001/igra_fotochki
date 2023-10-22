@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="foto_game\foto1.png" />
+    <None Remove="foto_game\foto2.jpg" />
+    <None Remove="foto_game\foto2.png" />
+    <None Remove="foto_game\foto3.jpg" />
+    <None Remove="foto_game\foto3.png" />
+    <None Remove="foto_game\foto4.jpg" />
+    <None Remove="foto_game\foto4.png" />
+    <None Remove="foto_game\foto5.jpg" />
+    <None Remove="foto_game\foto5.png" />
+    <None Remove="foto_game\photo3.jpg" />
+    <None Remove="foto_game\ramka.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="foto_game\foto1.png" />
+    <Resource Include="foto_game\foto2.jpg" />
+    <Resource Include="foto_game\foto4.jpg" />
+    <Resource Include="foto_game\foto5.jpg" />
+    <Resource Include="foto_game\photo3.jpg" />
+    <Resource Include="foto_game\ramka.png" />
+  </ItemGroup>
+
+</Project>
